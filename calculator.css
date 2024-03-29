@@ -1,0 +1,99 @@
+/* First we have to set :default setting with margin, padding and box-sizing */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* First Step :Second we have to focus our first container which is body 
+   first we have to set bgcolor after that use display flex to center other container in the body,
+   after that we used justify-content to help us center our container row wise center ,
+   after that we used align-item  to help us center our container coloumn wise ,
+   after that we have to set our body predifent height. */
+
+body{
+
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+/*Second Step : we have to focus our second container which name is container */
+
+.container
+{
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 10px black;
+  text-align: center;
+  padding: 30px;
+  width: 450px;
+  height: 320px;
+  
+}
+
+.header
+{
+  font-size: 20px;     
+  font-weight: 5oo;
+  margin-bottom: 10px;
+
+}
+
+/*Third Step : When we have to divid something in row we used display block , when we write display block 
+  then it occupied whole row  means display block give us full row */
+
+  .bill-info
+  {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+        
+  .tip-info
+  {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  input
+  {
+     width: 100%;
+     padding: 10px;
+     outline: none;
+     margin-bottom: 10px;
+     border-radius: 7px;
+  }
+
+  button
+  {
+    width: 120px;
+    padding: 10px;
+    font-size: large;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 10px solid black;
+    color: white;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+
+  button:hover
+  {
+    cursor: pointer;
+    background-color: lightcoral;
+  }
+
+  .result
+  {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }

@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/**********************************************START NAVLIST CODING*********************************************/
+
+.logo
+{
+    height: 80px;
+    width: 90px;
+   
+}
+
+#image
+{
+    height: 80px;
+    width: 90px;   
+}
+.navbox
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    
+}
+
+.nav-list
+{   
+    color: black;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 50%;
+}
+
+.nav-list li
+{
+    list-style: none;
+    margin-top: 25px;
+}
+
+.nav-list li a
+{
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+}
+
+.rightnav
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 20%;
+}
+
+.rightnav li
+{
+    list-style: none;
+    margin-top: 25px;
+}
+
+.background
+{
+    background: rgb(0, 0, 0, 0.7) url(Images/building.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+/*****************************************************NEW SECTION*************************************************************/
+
+.firstsection
+{
+    height: 100vh;
+}
+
+.boxmain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+
+}
+.firsthalf
+{
+    width: 60%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 230px;
+   margin-top: 250px;
+
+}
+
+
+.secondhalf
+{
+    width: 40%;
+    margin-right: 150px;
+}
+
+.secondhalf img
+{
+    width: 70%;
+    margin-top: 250px;
+    border: 2px solid white;
+    border-radius: 150px;
+}
+
+.textsmall
+{
+  font-size: 30px;
+}
+
+.textbig
+{
+  font-size: 18px;
+}
+
+.btn
+{
+   padding: 10px;
+   margin-top: 9px;
+   font-size: 16px;
+   border: 4px solid rgb(226, 223, 223);
+   border-radius: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   background:none;
+   color: wheat;
+   cursor: pointer;
+}
+/***************************************************SECOND-SECTION*********************************************************/
+
+.second-sec
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.textfirst
+{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 150px;
+  margin-left: 30px;
+  padding-left: 90px;
+}
+.textsecond
+{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 100px;
+}
+
+.second-img
+{
+    height: 300px;
+    width: 350px;
+    border: 2px white solid;
+    margin-top: 100px;
+    border-radius: 120px;
+   margin-right: 150px;
+}
+
+/**********************************************THIRD-SECTION************************************************************/
+
+.Third-sec
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.textfirst1
+{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 120px;
+  margin-right:100px;
+  margin-left: 10px;
+  padding-left: 60px;
+}
+.textsecond2
+{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 8px;
+    margin-right:140px;
+    margin-left: 10px;
+    padding-left: 60px;
+}
+
+.Third-img
+{
+    height: 300px;
+    width: 350px;
+    border: 2px white solid;
+    margin-left: 120px;
+    margin-top: 100px;
+    border-radius: 120px;
+    padding-left: 40px;
+}
+
+/******************************************************Fourth-SECTION*********************************************************/
+
+.Fourth-sec
+{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.textfirst2
+{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+.textsecond3
+{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.Fourth-img
+{
+    height: 300px;
+    width: 350px;
+    border: 2px white solid;
+    margin-right: 150px;
+    margin-top: 100px;
+    border-radius: 150px;
+    margin-left: 6px;
+}
+
+/******************************************************FIFTH-SECTION*********************************************************/
+
+
+.Fifth-sec
+{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.textfirst4
+{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 200px;
+  margin-right:40px;
+  margin-left: 10px;
+  padding-left: 8px;
+}
+.textsecond5
+{
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right:100px;
+    margin-left: 10px;
+    padding-left: 8px;
+}
+
+.Third-img
+{
+    height: 300px;
+    width: 350px;
+    border: 2px white solid;
+    margin-left: 50px;
+    margin-top: 130px;
+    border-radius: 120px;
+}
+
+.contact
+{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(249, 243, 237);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form
+{
+    padding-top: 20px;
+}
+
+.form input[type=text]
+{
+    width: 800px;
+    border: 2px solid rgb(203, 196, 196);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form input[type=number]
+{
+    width: 800px;
+    border: 2px solid rgb(203, 196, 196);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form input[type=email]
+{
+    width: 800px;
+    border: 2px solid rgb(203, 196, 196);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form input[type=message]
+{
+    width: 800px;
+    border: 2px solid rgb(203, 196, 196);
+    border-radius: 10px;
+    padding: 40px;
+    
+}
+
+.form button
+{
+    padding: 8px;
+    border: 2px solid rgb(215, 205, 205);
+    border-radius: 10px;
+}
+
+.footer 
+{
+    background-color: rgb(228, 228, 228);
+   
+}
+
+.Text-footer
+{
+    text-align: center;
+   
+   
+}
